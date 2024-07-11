@@ -1,66 +1,108 @@
 [
   {
-    "objectID": "wip.html",
-    "href": "wip.html",
-    "title": "Work in Progress",
+    "objectID": "miscelaneous.html",
+    "href": "miscelaneous.html",
+    "title": "Miscellanous",
     "section": "",
-    "text": "Nouvelles données sur le patrimoine immobilier des individus : Apports pour saisir la richesse et les inégalités dans les territoires with Laure Casanova-Enault, Antoine Peris and Martin Bocquet"
+    "text": "Co-organiser of 18\\(^{th}\\) RJCF session (early stages researchers in housing and land)\nConference about spatial heterogeneity in housing markets, IDHEAL, France\nConstruction of Data Portal from Research Project with CEREMA Hauts-de France. Online since June 2023. See here\nMidiSciences 2023 at Avignon University. See here"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About",
+    "objectID": "working_paper.html",
+    "href": "working_paper.html",
+    "title": "Working Papers",
     "section": "",
-    "text": "I am currently a post-doctoral researcher at the University of Avignon.\nI received my PhD in Economics from the University of Bourgogne Franche-Comté in May 2023 under the supervision of Julie Le Gallo and Jean-Sauveur Ay (CESAER).\n\nMy research interest are\n\nHousing Economics\nUrban and Regional Economics\nSpatial Econometrics\n\nYou can download my CV in pdf here"
+    "text": "with Jean-Sauveur Ay and Julie Le Gallo (submitted)\nThis article estimates the causal effect of the French policy of subsidised loans both on the number of new homeowners (the extensive margin) and on housing choice and price distortions (the intensive margin). The identification relies on the spatial and temporal variations of policy schemes over the last decade, controlling for endogenous treatment assignment by semi-parametric multi-level propensity scores. Our doubly robust estimations cannot rule out that the policy has no causal effect at the extensive margin, whereas it has significant effects at the intensive margin. Considering that policy makers value positively the extensive margin and negatively the intensive margin, we compute the returns on investment of government spending for counter-factual policy schemes and credit market conditions. Our simulations show that the current French policy is not cost-efficient for a wide range of monetary values of the two margins and cannot be improved by increasing overall budget cost.\nLatest version"
+  },
+  {
+    "objectID": "working_paper.html#supporting-homeownership-cost-effectively-evidence-from-the-french-interest-free-loan-policy",
+    "href": "working_paper.html#supporting-homeownership-cost-effectively-evidence-from-the-french-interest-free-loan-policy",
+    "title": "Working Papers",
+    "section": "",
+    "text": "with Jean-Sauveur Ay and Julie Le Gallo (submitted)\nThis article estimates the causal effect of the French policy of subsidised loans both on the number of new homeowners (the extensive margin) and on housing choice and price distortions (the intensive margin). The identification relies on the spatial and temporal variations of policy schemes over the last decade, controlling for endogenous treatment assignment by semi-parametric multi-level propensity scores. Our doubly robust estimations cannot rule out that the policy has no causal effect at the extensive margin, whereas it has significant effects at the intensive margin. Considering that policy makers value positively the extensive margin and negatively the intensive margin, we compute the returns on investment of government spending for counter-factual policy schemes and credit market conditions. Our simulations show that the current French policy is not cost-efficient for a wide range of monetary values of the two margins and cannot be improved by increasing overall budget cost.\nLatest version"
+  },
+  {
+    "objectID": "working_paper.html#capitalisation-of-demand-side-policies-with-information-asymmetries-and-market-segmentation",
+    "href": "working_paper.html#capitalisation-of-demand-side-policies-with-information-asymmetries-and-market-segmentation",
+    "title": "Working Papers",
+    "section": "Capitalisation of Demand-side Policies with Information Asymmetries and Market Segmentation",
+    "text": "Capitalisation of Demand-side Policies with Information Asymmetries and Market Segmentation\nI consider the price capitalisation of demand-side policies in the context of segmented housing market with heterogeneous purchasers according to information level on the housing market. Empirically, I exploit the French policy which subsidise buy-to-let investments through tax cuts. To account for endogenous treatment assignment following a place-based policy design, I apply a difference-in-difference approach for successive policy removal and introduction. The segmentation definition I consider follows the one assumed by policymakers, i.e. according to tenure status and building type. Exploiting micro-data available from the tax register, I distinguish the price effect experienced by local purchasers (who are assumed to be perfectly informed and thus subject only to the demand-shifting channel) from that experienced by Out-Of-Town purchasers (with lower level of knowledge of the housing market). The findings indicate that i) subsidy is at least partly capitalised on the targeted segments ii) there is no effect on segment defined by owner-occupation iii) information asymmetries of OOT purchasers play a minor role to explain price increase (only 1 point).\nLatest version"
+  },
+  {
+    "objectID": "working_paper.html#spatial-sorting-and-housing-wealth-persistence-insights-from-the-universe-of-french-homeowners",
+    "href": "working_paper.html#spatial-sorting-and-housing-wealth-persistence-insights-from-the-universe-of-french-homeowners",
+    "title": "Working Papers",
+    "section": "Spatial Sorting and Housing Wealth Persistence: Insights from the Universe of French Homeowners",
+    "text": "Spatial Sorting and Housing Wealth Persistence: Insights from the Universe of French Homeowners\nwith Jean-Sauveur Ay, Julie Le Gallo and Olivier Dupré\nThis article studies the relationship between initial levels and subsequent changes in gross housing wealth. Using administrative microdata on housing ownership and transactions in France over the period 2011-2019, we impute a market value for all housing portfolios held by private homeowners. We document strong housing wealth persistence (HWP) for this population, particularly with respect to the location of the main residences. We then examine HWP for three sub-populations identified from the panel structure of our data. HWP appears to be mainly driven by homeowners who change their main residence or receive a housing inheritance, while it is less pronounced for homeowners with a constant housing portfolio. The spatial sorting operated by the location choices of main residences (both between and within commuting zones) appears to be a key determinant of HWP, rather than capital gains from price variations of given housing portfolios.\nversion coming soon"
+  },
+  {
+    "objectID": "working_paper.html#only-winner-or-loser-purchase-price-difference-based-on-portfolios-size",
+    "href": "working_paper.html#only-winner-or-loser-purchase-price-difference-based-on-portfolios-size",
+    "title": "Working Papers",
+    "section": "Only winner or loser? Purchase price difference based on portfolios’ size",
+    "text": "Only winner or loser? Purchase price difference based on portfolios’ size\nwith Antoine Peris and Laure Casanova Enault\nversion coming soon"
+  },
+  {
+    "objectID": "working_paper.html#the-dynamics-of-property-ownership-with-spatial-markets-and-policies",
+    "href": "working_paper.html#the-dynamics-of-property-ownership-with-spatial-markets-and-policies",
+    "title": "Working Papers",
+    "section": "The Dynamics of Property Ownership with Spatial Markets and Policies",
+    "text": "The Dynamics of Property Ownership with Spatial Markets and Policies\nPhD Manuscript, link"
   },
   {
     "objectID": "publication.html",
     "href": "publication.html",
-    "title": "Rémi Lei",
+    "title": "Publications",
     "section": "",
-    "text": "Publications\nforthcoming\n\n\nÉvolution de la structure de la propriété immobilière en France\n\nDespite a spatially differentiated increase in property values in France since the beginning of the 21st century, the spatial dimension of the distribution of housing wealth remains understudied. The lack of empirical work is partly due to the absence of individual data, which is also available in a small number of countries -in Scandinavia, for example. To overcome this problem, we correct a structural error in the French property files used to measure housing wealth. We assess the quality of potential ID according to type I and type II errors. Our selected ID slightly introduce type I error, whereas significantly reduce type II error. Using this correction, we document the specialisation of the local ownership structure as a function of the observed price level. The proportion of dwellings owned by single owners (owners of a single dwelling) false significantly in the most expensive markets. In addition, the dynamics of ownership have changed over the last 10 years, with SCIs and legal entities gaining ground in the most expensive markets, to the detriment of single owners and multiple owners in their own right.\n\nwith Laure Casanova-Enault, Antoine Peris and Martin Bocquet (revise and resubmit to Revue d’Économie Régionale et Urbaine)\n\n\nSubmitted Paper\n\n\n\nSupporting Homeownership Cost-Effectively: Evidence from the French Interest-Free Loan Policy\n\nThis article estimates the causal effect of the French policy of subsidised loans both on the number of new homeowners (the extensive margin) and on housing choice and price distortions (the intensive margin). The identification relies on the spatial and temporal variations of policy schemes over the last decade, controlling for endogenous treatment assignment by semi-parametric multi-level propensity scores. Our doubly robust estimations cannot rule out that the policy has no causal effect at the extensive margin, whereas it has significant effects at the intensive margin. Considering that policy makers value positively the extensive margin and negatively the intensive margin, we compute the returns on investment of government spending for counter-factual policy schemes and credit market conditions. Our simulations show that the current French policy is not cost-efficient for a wide range of monetary values of the two margins and cannot be improved by increasing overall budget cost.\n\nwith Jean-Sauveur Ay and Julie Le Gallo (submitted), link\n\n\n\nWorking Paper\n\n\n\nPrice Capitalization of Demand-side Policies with Segmented Housing Markets\n\nI consider the price capitalisation of demand-side policies in the context of segmented housing market with heterogeneous purchasers according to information level on the housing market. Empirically, I exploit the French policy which subsidise buy-to-let investments through tax cuts. To account for endogenous treatment assignment following a place-based policy design, I apply a difference-in-difference approach for successive policy removal and introduction. The segmentation definition I consider follows the one assumed by policymakers, i.e. according to tenure status and building type. Exploiting micro-data available from the tax register, I distinguish the price effect experienced by local purchasers (who are assumed to be perfectly informed and thus subject only to the demand-shifting channel) from that experienced by Out-Of-Town purchasers (with lower level of knowledge of the housing market). The findings indicate that i) subsidy is at least partly capitalised on the targeted segments ii) there is no effect on segment defined by owner-occupation iii) information asymmetries of OOT purchasers play a minor role to explain price increase (only 1 point).\n\nlink\n\n\n\nSpatial Sorting and Housing Wealth Persistence: Insights from the Universe of French Homeowners\n\nThis article studies the relationship between initial levels and subsequent changes in gross housing wealth. Using administrative microdata on housing ownership and transactions in France over the period 2011-2019, we impute a market value for all housing portfolios held by private homeowners. We document strong housing wealth persistence (HWP) for this population, particularly with respect to the location of the main residences. We then examine HWP for three sub-populations identified from the panel structure of our data. HWP appears to be mainly driven by homeowners who change their main residence or receive a housing inheritance, while it is less pronounced for homeowners with a constant housing portfolio. The spatial sorting operated by the location choices of main residences (both between and within commuting zones) appears to be a key determinant of HWP, rather than capital gains from price variations of given housing portfolios.\n\nnew version coming soon\nwith Jean-Sauveur Ay, Julie Le Gallo and Olivier Dupré\n\n\nWork in Progress\n\n\n\nOnly winner or loser? Purchase price difference based on portfolios’ size\n\nwith Antoine Peris and Laure Casanova Enault\n\n\n\nOther Documents\n\nThe Dynamics of Property Ownership with Spatial Markets and Policies, PhD Manuscript, link"
+    "text": "in Revue d’Économie Régionale et Urbaine with Laure Casanova-Enault, Antoine Peris and Martin Bocquet\nDespite a spatially differentiated increase in property values in France since the beginning of the 21st century, the spatial dimension of the distribution of housing wealth remains understudied. The lack of empirical work is partly due to the absence of individual data, which is also available in a small number of countries -in Scandinavia, for example. To overcome this problem, we correct a structural error in the French property files used to measure housing wealth. We assess the quality of potential ID according to type I and type II errors. Our selected ID slightly introduce type I error, whereas significantly reduce type II error. Using this correction, we document the specialisation of the local ownership structure as a function of the observed price level. The proportion of dwellings owned by single owners (owners of a single dwelling) false significantly in the most expensive markets. In addition, the dynamics of ownership have changed over the last 10 years, with SCIs and legal entities gaining ground in the most expensive markets, to the detriment of single owners and multiple owners in their own right.\nPaper here, code deposit"
+  },
+  {
+    "objectID": "publication.html#évolution-de-la-structure-de-la-propriété-immobilière-en-france",
+    "href": "publication.html#évolution-de-la-structure-de-la-propriété-immobilière-en-france",
+    "title": "Publications",
+    "section": "",
+    "text": "in Revue d’Économie Régionale et Urbaine with Laure Casanova-Enault, Antoine Peris and Martin Bocquet\nDespite a spatially differentiated increase in property values in France since the beginning of the 21st century, the spatial dimension of the distribution of housing wealth remains understudied. The lack of empirical work is partly due to the absence of individual data, which is also available in a small number of countries -in Scandinavia, for example. To overcome this problem, we correct a structural error in the French property files used to measure housing wealth. We assess the quality of potential ID according to type I and type II errors. Our selected ID slightly introduce type I error, whereas significantly reduce type II error. Using this correction, we document the specialisation of the local ownership structure as a function of the observed price level. The proportion of dwellings owned by single owners (owners of a single dwelling) false significantly in the most expensive markets. In addition, the dynamics of ownership have changed over the last 10 years, with SCIs and legal entities gaining ground in the most expensive markets, to the detriment of single owners and multiple owners in their own right.\nPaper here, code deposit"
   },
   {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Mathematics for Geographers (Undergraduate) (18h)\nSpatial Statistics (Master) (18h)\nProject for 1\\(^{st}\\) year engineering program (ENTPE) 15h"
+    "text": "Mathematics for Spatial Analysis (Undergraduate) (18h)\nSpatial Statistics (Graduate) (18h)\nUrban Economics Modelling Project in Engineering School (15h)\n\nSupervisions\n\nMaster internship of Manon Decremps in partnership with France Stratégie, Impacts of multiowners in rental markets\nMaster’s thesis of Mehdi Benzaidi about Spatial analysis of multiowners in Bordeaux metropolitan areas"
   },
   {
     "objectID": "teaching.html#section",
     "href": "teaching.html#section",
     "title": "Teaching",
     "section": "",
-    "text": "Mathematics for Geographers (Undergraduate) (18h)\nSpatial Statistics (Master) (18h)\nProject for 1\\(^{st}\\) year engineering program (ENTPE) 15h"
+    "text": "Mathematics for Spatial Analysis (Undergraduate) (18h)\nSpatial Statistics (Graduate) (18h)\nUrban Economics Modelling Project in Engineering School (15h)\n\nSupervisions\n\nMaster internship of Manon Decremps in partnership with France Stratégie, Impacts of multiowners in rental markets\nMaster’s thesis of Mehdi Benzaidi about Spatial analysis of multiowners in Bordeaux metropolitan areas"
   },
   {
     "objectID": "teaching.html#section-1",
     "href": "teaching.html#section-1",
     "title": "Teaching",
     "section": "2021-2022",
-    "text": "2021-2022\n\nProject for 1\\(^{st}\\) year engineering program (ENTPE) 15h\n\nMass Appraisal Models"
+    "text": "2021-2022\n\nUrban Economics Modelling Project in Engineering School (15h)"
   },
   {
     "objectID": "teaching.html#section-2",
     "href": "teaching.html#section-2",
     "title": "Teaching",
     "section": "2020-2021",
-    "text": "2020-2021\n\nProject for 1\\(^{st}\\) year engineering program (ENTPE) 15h\n\nMass Appraisal Models"
+    "text": "2020-2021\n\nUrban Economics Modelling Project in Engineering School (15h)"
   },
   {
     "objectID": "conferences.html",
     "href": "conferences.html",
     "title": "Conferences",
     "section": "",
-    "text": "40\\(^{th}\\) Annual Conference of Applied Microeconometrics, Lille (forthcoming)\n18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble (forthcoming)\nERSA Congress (forthcoming)"
+    "text": "18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble\nERSA Congress (forthcoming)\nCESifo Workshop about Big Data in Urban and Regional Economics (forthcoming)"
   },
   {
     "objectID": "conferences.html#section",
     "href": "conferences.html#section",
     "title": "Conferences",
     "section": "",
-    "text": "40\\(^{th}\\) Annual Conference of Applied Microeconometrics, Lille (forthcoming)\n18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble (forthcoming)\nERSA Congress (forthcoming)"
+    "text": "18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble\nERSA Congress (forthcoming)\nCESifo Workshop about Big Data in Urban and Regional Economics (forthcoming)"
   },
   {
     "objectID": "conferences.html#section-1",
@@ -77,10 +119,10 @@
     "text": "2022\n\n70\\(^{th}\\) Annual Congress of AFSE, Dijon\n6\\(^{th}\\) Conference Center for Real Estate Management, Paris Dauphine"
   },
   {
-    "objectID": "miscelaneous.html",
-    "href": "miscelaneous.html",
-    "title": "Miscellanous",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
     "section": "",
-    "text": "Co-organiser of 18\\(^{th}\\) RJCF session (early stages researchers in housing and land)\nConference about spatial heterogeneity in housing markets, IDHEAL, France\nConstruction of Data Portal from Research Project with CEREMA Hauts-de France. Online since June 2023. See here\nMidiSciences 2023 at Avignon University. See here"
+    "text": "I will join the EU Tax Observatory in September 2024, as postdoctoral fellow in the INTREALES Project.\nI received my PhD in Economics from the University of Bourgogne Franche-Comté in May 2023 under the supervision of Julie Le Gallo and Jean-Sauveur Ay (CESAER).\n\nMy research interest are\n\nUrban and Regional Economics with emphasis in Housing Economics\nApplied Econometrics for Policy Assessment\nWealth Inequality\n\nYou can download my CV in pdf here"
   }
 ]

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -60,35 +60,6 @@ gtag('js', new Date());
 gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -114,14 +85,25 @@ window.Quarto = {
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./publication.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./publication.html">
+ <span class="dropdown-text">Publications</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./conferences.html"> 
-<span class="menu-text">Conferences</span></a>
+        <li>
+    <a class="dropdown-item" href="./working_paper.html">
+ <span class="dropdown-text">Working Papers</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./conferences.html">
+ <span class="dropdown-text">Conferences</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link active" href="./teaching.html" aria-current="page"> 
 <span class="menu-text">Teaching</span></a>
@@ -164,27 +146,30 @@ window.Quarto = {
 </header>
 
 
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2023-2024</h2>
+<section id="section" class="level2 full-width">
+<h2 class="full-width anchored" data-anchor-id="section">2023-2024</h2>
 <ul>
-<li>Mathematics for Geographers (Undergraduate) (18h)</li>
-<li>Spatial Statistics (Master) (18h)</li>
-<li>Project for 1<span class="math inline">\(^{st}\)</span> year engineering program (ENTPE) 15h</li>
+<li>Mathematics for Spatial Analysis (Undergraduate) (18h)</li>
+<li>Spatial Statistics (Graduate) (18h)</li>
+<li>Urban Economics Modelling Project in Engineering School (15h)</li>
+</ul>
+<p><strong>Supervisions</strong></p>
+<ul>
+<li>Master internship of Manon Decremps in partnership with France Stratégie, <em>Impacts of multiowners in rental markets</em></li>
+<li>Master’s thesis of Mehdi Benzaidi about <em>Spatial analysis of multiowners in Bordeaux metropolitan areas</em></li>
 </ul>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2021-2022</h2>
+<section id="section-1" class="level2 full-width other-color">
+<h2 class="full-width other-color anchored" data-anchor-id="section-1">2021-2022</h2>
 <ul>
-<li>Project for 1<span class="math inline">\(^{st}\)</span> year engineering program (ENTPE) 15h</li>
+<li>Urban Economics Modelling Project in Engineering School (15h)</li>
 </ul>
-<p><em>Mass Appraisal Models</em></p>
 </section>
-<section id="section-2" class="level2">
-<h2 class="anchored" data-anchor-id="section-2">2020-2021</h2>
+<section id="section-2" class="level2 full-width">
+<h2 class="full-width anchored" data-anchor-id="section-2">2020-2021</h2>
 <ul>
-<li>Project for 1<span class="math inline">\(^{st}\)</span> year engineering program (ENTPE) 15h</li>
+<li>Urban Economics Modelling Project in Engineering School (15h)</li>
 </ul>
-<p><em>Mass Appraisal Models</em></p>
 
 
 </section>
@@ -603,12 +588,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Made with Quarto</p>
-</div>   
+      &nbsp;
+    </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Last Modification: 2024-04-08
+ Last Modification: 2024-07-09
   </li>  
 </ul>
     </div>
@@ -621,7 +606,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
     <li class="nav-item compact">
-    <a class="nav-link" href="mailto:remi.lei.univ.acad@gmail.com?subject=[Website]%20">
+    <a class="nav-link" href="mailto:remi.lei.univ.acad@gmail.com">
       <i class="bi bi-envelope" role="img">
 </i> 
     </a>
