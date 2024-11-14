@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "data.html",
-    "href": "data.html",
-    "title": "Data",
+    "objectID": "price_heterogeneity.html",
+    "href": "price_heterogeneity.html",
+    "title": "Housing Price: Spatial Heterogeneity",
     "section": "",
-    "text": "Coming soon..!"
+    "text": "[Quick introduction to make &gt; point out my PhD manuscript and also the first chapter]\nCode\ndf_temporal &lt;- dcast(insee ~ year, data = df_value[year %in% c(min(df_value$year),max(df_value$year)),.(insee,year,avg_pm2,avg_value)], value.var = list(\"avg_pm2\",\"avg_value\"))\nnames(df_temporal) &lt;- c(\"insee\",\"pm2_start\",\"pm2_end\",\"value_start\",\"value_end\")\ndf_temporal[,evol := (pm2_end / pm2_start) - 1] \n\nload(\"~/Documents/Modules/communes.Rda\")\nsf_communes &lt;- merge(df_communes,df_temporal[!is.na(evol) & evol &lt; 1 & evol &gt; -0.3], by = \"insee\",all.x = TRUE)\n\np1 &lt;- countries.cropped(sf_communes) +\ngeom_sf(data = sf_communes,inherit.aes = FALSE,\n  mapping = aes(\n    fill = pm2_end\n    ),\n  color = NA\n  ) +\nguides_plat() +\nscale_fill_gradient(\n  trans = \"log\",\n  low = \"white\", \n  high = \"darkred\",\n  na.value = \"#BBBBBB\",\n  breaks = c(1000,2500,7500,10000),\n  labels = function(x){paste0(x/1000,\"k\")}) +\nlabs(\n  fill = \"Price per square metres\"\n  ) +\ntheme(\n  text = element_text(size = 12)\n  )\n\np2 &lt;- countries.cropped(sf_communes) +\ngeom_sf(data = sf_communes,inherit.aes = FALSE,\n  mapping = aes(\n    fill = evol\n    ),\n  color = NA\n  ) +\nguides_plat() +\nscale_fill_gradient2(\n  low = \"darkblue\", \n  high = \"darkred\",\n  mid = \"white\",\n  na.value = \"#BBBBBB\",\n  labels = function(x){paste0(100*x,\"%\")}) +\nlabs(\n  fill = \"Evolution in % (2011-2023)\"\n  ) +\ntheme(\n  text = element_text(size = 12)\n  )"
+  },
+  {
+    "objectID": "price_heterogeneity.html#price-per-year",
+    "href": "price_heterogeneity.html#price-per-year",
+    "title": "Housing Price: Spatial Heterogeneity",
+    "section": "Price per year",
+    "text": "Price per year\nWe report the appraised annual spatial distribution of price per square unit at the municipal level.\n\n\nCode\nl_plot &lt;- lapply(\n  seq(2011,2023),\n  FUN = function(year_j){\n\n    sf_communes &lt;- merge(df_communes,df_value[year == year_j], by = \"insee\",all.x = TRUE)\n\n    p1 &lt;- countries.cropped(sf_communes) +\n    geom_sf(data = sf_communes,inherit.aes = FALSE,\n      mapping = aes(\n        fill = avg_pm2\n        ),\n      color = NA\n      ) +\n    guides_plat() +\n    scale_fill_gradient(\n      trans = \"log\",\n      low = \"white\", \n      high = \"darkred\",\n      na.value = \"#BBBBBB\",\n      breaks = c(1000,2500,7500,10000),\n      limits = c(0.9*min(df_value$avg_pm2),max(df_value$avg_pm2)),\n      labels = function(x){paste0(x/1000,\"k\")}) +\n    labs(\n      fill = \"Price per square metres\",\n      title = paste0(\"Year \",year_j)\n      ) +\n    theme(\n      text = element_text(size = 12)\n      )\n  }\n)"
+  },
+  {
+    "objectID": "price_heterogeneity.html#annual-evolution",
+    "href": "price_heterogeneity.html#annual-evolution",
+    "title": "Housing Price: Spatial Heterogeneity",
+    "section": "Annual evolution",
+    "text": "Annual evolution\n\n\nCode\nl_plot &lt;- lapply(\n  seq(2011,2021),\n  FUN = function(year_j){\n\n    df_evolution &lt;- merge(df_value[year == year_j + 1],df_value[year == year_j], by = \"insee\",suffixes = c(\"_2\",\"_1\"))\n    df_evolution[,var_evol := (avg_pm2_2 / avg_pm2_1) - 1]\n\n    sf_communes &lt;- merge(df_communes,df_evolution, by = \"insee\",all.x = TRUE)\n\n    p2 &lt;- countries.cropped(sf_communes) +\n    geom_sf(data = sf_communes,inherit.aes = FALSE,\n      mapping = aes(\n        fill = var_evol\n        ),\n      color = NA\n      ) +\n    guides_plat() +\n    scale_fill_gradient2(\n      low = \"darkblue\", \n      high = \"darkred\",\n      mid = \"white\",\n      limits = c(-21,34) / 100,\n      na.value = \"#BBBBBB\",\n      labels = function(x){paste0(100*x,\"%\")}) +\n    labs(\n      fill = \"Evolution in %\",\n      title = paste0(\"Year \",year_j)\n      ) +\n    theme(\n      text = element_text(size = 12)\n      )\n\n    return(p2)\n  }\n)"
   },
   {
     "objectID": "index.html",
@@ -16,28 +30,35 @@
   {
     "objectID": "conferences.html",
     "href": "conferences.html",
-    "title": "Conferences",
+    "title": "Conferences and seminars",
     "section": "",
-    "text": "18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble\nCESifo Workshop about Big Data in Urban and Regional Economics (forthcoming), Munich\nInternal seminar at the EU Tax Observatory, Paris"
+    "text": "ERUDITE Seminar"
+  },
+  {
+    "objectID": "conferences.html#including-upcoming-events",
+    "href": "conferences.html#including-upcoming-events",
+    "title": "Conferences and seminars",
+    "section": "",
+    "text": "ERUDITE Seminar"
   },
   {
     "objectID": "conferences.html#section",
     "href": "conferences.html#section",
-    "title": "Conferences",
-    "section": "",
-    "text": "18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble\nCESifo Workshop about Big Data in Urban and Regional Economics (forthcoming), Munich\nInternal seminar at the EU Tax Observatory, Paris"
+    "title": "Conferences and seminars",
+    "section": "2024",
+    "text": "2024\n\n18\\(^{th}\\) International Spatial Econometrics Workshop, Grenoble\nCESifo Workshop about Big Data in Urban and Regional Economics (forthcoming), Munich\nPublic Policy Evaluation Conference, Paris\nInternal seminar at the EU Tax Observatory, Paris"
   },
   {
     "objectID": "conferences.html#section-1",
     "href": "conferences.html#section-1",
-    "title": "Conferences",
+    "title": "Conferences and seminars",
     "section": "2023",
     "text": "2023\n\n18\\(^{th}\\) Annual Conference of Theory And Public Policies Assessment (TEPP), Poitiers\n39\\(^{th}\\) Annual Conference of Applied Microeconometrics, Strasbourg\n59\\(^{th}\\) Annual Congress of ASRDLF, La Réunion"
   },
   {
     "objectID": "conferences.html#section-2",
     "href": "conferences.html#section-2",
-    "title": "Conferences",
+    "title": "Conferences and seminars",
     "section": "2022",
     "text": "2022\n\n70\\(^{th}\\) Annual Congress of AFSE, Dijon\n6\\(^{th}\\) Conference Center for Real Estate Management, Paris Dauphine"
   },
