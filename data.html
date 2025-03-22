@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.42">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -31,10 +31,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-a87bda0cc4673da07662b09e58e579fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/intersection-observer-polyfill-1.0.0/intersection-observer.js"></script>
+<script src="site_libs/quarto-contrib/scrollama-3.2.0/scrollama.min.js"></script>
+<script src="site_libs/quarto-contrib/closeread-0.1.0/closeread.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -59,11 +62,14 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
 </script>
+<meta cr-debug-mode="false">
+<meta cr-remove-header-space="false">
 
 
+<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/qmd-lab/closeread/closeread.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -100,17 +106,13 @@ gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
   </li>  
         <li>
     <a class="dropdown-item" href="./conferences.html">
- <span class="dropdown-text">Conferences</span></a>
+ <span class="dropdown-text">Conferences and seminars</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./data.html" aria-current="page"> 
-<span class="menu-text">Data</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./miscelaneous.html"> 
@@ -124,12 +126,12 @@ gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -138,7 +140,7 @@ gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -150,9 +152,42 @@ gtag('config', 'GTM-WFDD2XWQ', { 'anonymize_ip': true});
 </header>
 
 
-<p>Coming soon..!</p>
+<p>Hello World! Please read my Closeread story below.</p>
+<section id="main-objective" class="level2">
+<h2 class="anchored" data-anchor-id="main-objective">Main objective</h2>
+<p>The assessment of market value for housing assets is a major question to most scholars, policymakers and homeowners considering its implication for economies.</p>
+<p>Whereas the total housing stock represents at least twice as the French GDP, the assessment rely on aggregate estimations.</p>
+<p>[Need for transparent and tractable model]</p>
+<p>But how to obtain <strong>microdata</strong> about the potential market value for each housing assets?</p>
+<p>It might fuel the ongoing discussion about appopriate tax base for property tax, ensure a proper estimation of gross housing wealth needed for the housing wealth tax, or better understand spatial heterogeneity in housing price.</p>
+</section>
+<section id="data-sources" class="level2">
+<h2 class="anchored" data-anchor-id="data-sources">Data sources</h2>
+<p>To overcome the lack of housing market assessment, we exploit the French transaction dataset named <em>Demande de valeurs foncières</em>. Following common hedonic approach, we can value based on the observation of the universe of sale, the implicit value of each attribute.</p>
+<p>[EQUATION]</p>
+<p>Yet, a question remains. <strong>How to model the spatial dimension?</strong></p>
+<p>Common hedonic approaches have widely used spatial fixed effects using administrative boundaries, accounting</p>
+</section>
+<section id="process" class="level2">
+<h2 class="anchored" data-anchor-id="process">Process</h2>
+<p>To estimate the spatial contribution to housing market value both in cross-section and dynamic way, we exploit the recent development of GAM applied to spatial data.</p>
+<p>It endogenously defines the effective degree of freedom for the spatial dimension of housing price in interaction with the temporal one. Hence, it trades off betwee overfitting and underfitting.</p>
+<p>The method relies on penalized regression to assess the appropriate transformation using REstricted Maximum Likelihood method.</p>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>Based on the estimation of the Eq 1., we can derive the implicit value of housing characteristics, and then appraise the market value for every housing asset.</p>
+<p>Focusing on the spatial dimension, we retrieve well-know spatial pattern for price per square meter. It decreases with distance to center of metropolitan areas, following monocentric predictions.</p>
+<p>In addition, Paris is the most expensive metropolitan areas, with Lyon and Lille as second best.</p>
+<p>Turning to the dynamic dimension, the spatial pattern changes dramatically. First, the metropolitan areas benefit from positive appreciation in average since 2011.</p>
+<p>Second, the rural areas, with lower level of density experience either a stagnation of housing value, or a decrease. Hence, the gap between metropolitan areas and rural areas is increasing since 2011.</p>
+<p>[Spatial zoom]</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -237,8 +272,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -349,7 +382,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
@@ -584,7 +616,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Last Modification: 2024-10-03
+ Last Modification: 2025-03-22
   </li>  
 </ul>
     </div>
