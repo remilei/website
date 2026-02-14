@@ -1,0 +1,95 @@
+/* Additional custom styles */
+
+.social-links a {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    display: inline-block;
+}
+
+.social-links a:hover {
+    transform: translateY(-2px);
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* Research page list styling */
+.column-page ol {
+    counter-reset: publication-counter;
+    list-style: none;
+    padding-left: 0;
+}
+
+.column-page ol>li {
+    counter-increment: publication-counter;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-left: 0;
+}
+
+.column-page ol>li::before {
+    content: counter(publication-counter) ".";
+    font-weight: 600;
+    color: #00077A;
+    margin-right: 0.5rem;
+}
+
+/* Work in progress list */
+.column-page ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.column-page ul>li {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.column-page ul>li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #00077A;
+    font-weight: bold;
+}
+
+/* Paper links styling */
+a[href^="#"] {
+    color: #00077A;
+    font-size: 0.9rem;
+    margin-right: 0.75rem;
+}
+
+a[href^="#"]:hover {
+    color: #000AD1;
+}
+
+/* Change all link colors */
+a {
+    color: #00077A;
+}
+
+a:hover {
+    color: #000AD1;
+}
+
+/* Horizontal rules */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ecf0f1;
+    margin: 3rem 0;
+}
+
+/* Profile image */
+img[alt*="Your Name"] {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Smaller abstract text */
+.abstract {
+    font-size: 0.9rem;
+}
+
+h2 {
+    border-bottom: none;
+}
