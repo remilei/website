@@ -93,3 +93,21 @@ img[alt*="Your Name"] {
 h2 {
     border-bottom: none;
 }
+
+.about-links .about-link {
+    border: none !important;
+    background: none !important;
+    padding: 0.3rem 0.5rem;
+    font-size: 2rem;
+    color: #555;
+    box-shadow: none !important;
+}
+
+.about-links .about-link:hover {
+    color: #000;
+    background: none !important;
+}
+
+.about-links .about-link i {
+    font-size: 1.1rem;
+}
