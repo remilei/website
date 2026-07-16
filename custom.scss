@@ -1,0 +1,104 @@
+/*-- scss:defaults --*/
+
+// Minimalist color scheme
+$body-bg: #ffffff;
+$body-color: #2c3e50;
+$link-color: #3498db;
+$link-hover-color: #2980b9;
+
+// Typography
+$font-family-sans-serif: "Inter", sans-serif;
+$headings-font-weight: 600;
+$font-size-base: 1.05rem;
+$line-height-base: 1.7;
+
+// Spacing
+$spacer: 1rem;
+
+/*-- scss:rules --*/
+
+// Clean, minimal styling
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+// Links
+a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Research page styling
+details {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  
+  summary {
+    cursor: pointer;
+    color: #7f8c8d;
+    font-size: 0.95rem;
+    
+    &:hover {
+      color: #3498db;
+    }
+  }
+  
+  p {
+    margin-top: 0.75rem;
+    padding-left: 1rem;
+    color: #5a6c7d;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+}
+
+// Navbar customization
+.navbar {
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 2rem;
+}
+
+// Footer
+.page-footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ecf0f1;
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+h2 {
+  border-bottom: none;
+}
