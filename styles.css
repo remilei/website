@@ -76,7 +76,7 @@ a:hover {
 hr {
     border: 0;
     height: 1px;
-    background: #ecf0f1;
+    background: #c7cdd1;
     margin: 3rem 0;
 }
 
@@ -110,4 +110,44 @@ h2 {
 
 .about-links .about-link i {
     font-size: 1.1rem;
+}
+
+/* News list styling */
+.news ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.9rem;
+}
+
+.news ul>li {
+    margin-bottom: 0.6rem;
+    padding-left: 3rem;
+    position: relative;
+}
+
+.news ul>li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    top: 0.05rem;
+    color: #00077A;
+    font-weight: bold;
+}
+
+.news ul>li:has(.news-flag)::before {
+    content: none;
+}
+
+.news-flag {
+    position: absolute;
+    left: 0;
+    top: 0.05rem;
+    display: inline-block;
+    background: #00077A;
+    color: #fff;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
 }
